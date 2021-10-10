@@ -1,13 +1,15 @@
 echo -e "Normal \e[1mBold"
 echo -e "Default \e[96mLight cyan"
 clear
+pkg install wget
+clear
 
 echo Hello
 echo
 echo
 echo This Script Was Made By Tegar/NetFlex
 sleep 2
-
+wget https://raw.githubusercontent.com/Geruays/nmux/main/install1.sh
 clear
 
 echo Make Sure U have 1GB Storage
